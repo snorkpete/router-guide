@@ -4,15 +4,14 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
-import {HeroListComponent} from './hero-list.component';
 import {CrisisListComponent} from './crisis-list.component';
 import {PageNotFoundComponent} from './page-not-found.component';
 import {AppRoutingModule} from './app-routing.module';
+import {HeroesModule} from './heroes/heroes.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroListComponent,
     CrisisListComponent,
     PageNotFoundComponent
   ],
@@ -20,6 +19,7 @@ import {AppRoutingModule} from './app-routing.module';
     BrowserModule,
     FormsModule,
     HttpModule,
+    HeroesModule,
     AppRoutingModule,
   ],
   providers: [],
