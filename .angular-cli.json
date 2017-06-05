@@ -52,6 +52,10 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+      "flat": true,
+      "inlineTemplate": true,
+      "inlineStyle": true
+    }
   }
 }
